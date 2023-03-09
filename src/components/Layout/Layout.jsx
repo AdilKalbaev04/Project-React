@@ -1,10 +1,12 @@
+import Home from "../../pages/Home";
 import { Footer } from "../Footer/Footer";
 import Header from "../Header/Header";
 
-const Layout = ({}) => {
+const Layout = () => {
   return (
     <>
       <Header />
+      <Home />
       <Footer />
     </>
   );
