@@ -1,5 +1,5 @@
 const Btn = () => {
-  return <div>start</div>;
+  return <button>send</button>;
 };
 
 export default Btn;
