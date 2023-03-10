@@ -1,0 +1,19 @@
+.fon {
+  min-height: 1116px;
+  max-width: 1465px;
+  background-image: url("../public/background.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  margin-top: 264px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  min-height: 98px;
+  max-width: 846px;
+}

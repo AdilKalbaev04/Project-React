@@ -2,11 +2,11 @@ import Home from "../../pages/Home";
 import { Footer } from "../Footer/Footer";
 import Header from "../Header/Header";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <Home />
+      <main>{children}</main>
       <Footer />
     </>
   );
