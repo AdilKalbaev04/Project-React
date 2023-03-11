@@ -1,6 +1,10 @@
-import restoranReducer from "./reducers/restoran.reducer";
+import { restoApi } from "./reducers/restoraunt.reducer";
 import { configureStore } from "@reduxjs/toolkit";
 
 export const store = configureStore({
-  reducer: restoranReducer,
+  reducer: {
+    [restoApi.reducerPath]: restoApi.reducer,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(restoApi.middleware),
 });

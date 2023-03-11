@@ -1,10 +1,9 @@
 .fon {
-  min-height: 1116px;
   max-width: 1465px;
-  background-image: url("../public/background.png");
+  min-height: 867px;
+  background-image: url(../public/background.png);
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
+  position: relative;
 }
 .title {
   margin-top: 264px;
@@ -16,4 +15,127 @@
   color: white;
   min-height: 98px;
   max-width: 846px;
+}
+.title_cont {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+.order_cont {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  min-height: 119px;
+  width: 297px;
+  border-radius: 100px 0px 0px 100px;
+  background: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.order_price {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.order_svg {
+  height: 58px;
+  width: 61px;
+  border-radius: 100px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sometext {
+  display: flex;
+  flex-direction: column;
+}
+.block {
+  min-height: 204px;
+  max-width: 1176px;
+  border-radius: 50px;
+  background: white;
+  position: absolute;
+  top: 143%;
+  right: 0px;
+  left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.block_text {
+  display: flex;
+  flex-direction: column;
+}
+.block_text_span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #262626;
+}
+.block_text_p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #262626b2;
+  letter-spacing: 0em;
+}
+.text_cont {
+  height: 67px;
+  width: 285px;
+  display: flex;
+  gap: 20px;
+}
+.block_svg {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.block_2 {
+  min-height: 1000px;
+}
+.logo_cont {
+  height: 85px;
+  display: flex;
+justify-content: center;
+  width: 287px;
+  gap: 40px;
+}
+.logo {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: 0em;
+  color: #bd704833;
+}
+.block_2_span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.block_2_p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+.logo_span_p {
+  display: flex;
+  flex-direction: column;
 }
