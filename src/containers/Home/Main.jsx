@@ -1,8 +1,13 @@
 import Btn from "../../components/Btn/Btn";
+import { useGetRestorauntsQuery } from "../../store/reducers/restoraunt.reducer";
 import styles from "./Main.module.css";
 import React from "react";
 
 const Main = () => {
+  const { data, isLoading } = useGetRestorauntsQuery();
+  if (isLoading) return <h1>loading...</h1>;
+  const restoraunt = data.data;
+  console.log(restoraunt);
   return (
     <div>
       <div className={styles.fon}>
@@ -145,15 +150,45 @@ const Main = () => {
       </div>
       <div className={styles.block_2}>
         <h2>Как это работает?</h2>
-        <div className={styles.logo_cont}>
-          <span className={styles.logo}>01</span>
-          <div className={styles.logo_span_p}>
-            <span className={styles.block_2_span}>Выбор состава проекта</span>
-            <p className={styles.block_2_p}>
-              Выберите состав вашего проекта: только планировка или
-              дизайн-проект
-            </p>
+        <div className={styles.wrap}>
+          <div className={styles.logo_cont}>
+            <span className={styles.logo}>01</span>
+            <div className={styles.logo_span_p}>
+              <span className={styles.block_2_span}>Выбор состава проекта</span>
+              <p className={styles.block_2_p}>
+                Выберите состав вашего <br /> проекта: только планировка или{" "}
+                <br />
+                дизайн-проект
+              </p>
+            </div>
           </div>
+          <div className={styles.logo_cont}>
+            <span className={styles.logo}>01</span>
+            <div className={styles.logo_span_p}>
+              <span className={styles.block_2_span}> Настройка проекта</span>
+              <p className={styles.block_2_p}>
+                Отметьте в корзине нужен ли <br /> вам профессиональный замер,{" "}
+                <br /> подбор строительной бригады <br /> или точный просчет
+                сметы
+              </p>
+            </div>
+          </div>
+          <div className={styles.logo_cont}>
+            <span className={styles.logo}>01</span>
+            <div className={styles.logo_span_p}>
+              <span className={styles.block_2_span}>Создание чертежей</span>
+              <p className={styles.block_2_p}>
+                Наши дизайнеры спроектируют <br /> интерьер, подготовят <br />{" "}
+                чертежи.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          {restoraunt &&
+            restoraunt.map((item) => {
+              return <img src={item.image.url} alt={item.title} />;
+            })}
         </div>
       </div>
     </div>

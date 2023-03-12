@@ -5,9 +5,10 @@ const Price = () => {
   const { data, isLoading } = useGetRestorauntsQuery();
   if (isLoading) return <h1>loading...</h1>;
   const restoraunt = data.data
+  console.log(restoraunt);
   return <div>
     {restoraunt && restoraunt.map(item =>{
-      return <h3 key={item.id}>{item.desc}</h3>
+      return <img src={item.image.url} alt={item.title} />
     })}
   </div>;
 };

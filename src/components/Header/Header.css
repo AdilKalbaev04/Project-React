@@ -1,0 +1,32 @@
+.isActive {
+  transform: rotateY(0);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  width: 200px;
+  height: 100%;
+  background: #bd7048;
+  padding: 15px;
+  z-index: 4;
+}
+.isDisable {
+  display: none !important;
+}
+.navBar {
+  max-width: 538px;
+  display: flex;
+  gap: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .navBar {
+    display: none !important;
+  }
+}

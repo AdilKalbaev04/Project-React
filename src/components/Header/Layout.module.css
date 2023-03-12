@@ -15,11 +15,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.nav {
-  max-width: 538px;
-  display: flex;
-  gap: 40px;
-}
+
 .logo {
   color: #bd7048;
 }
@@ -44,9 +40,30 @@
   text-decoration: none;
 }
 .navlink:hover {
-border-bottom: #bd7048 1px solid;
+  border-bottom: #bd7048 1px solid;
 }
 .logo__cont {
   display: flex;
   flex-direction: column;
+}
+.cont_Hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .tel {
+    display: none !important;
+  }
+  .cont {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  .navlink {
+    color: white;
+  }
+  .cont_Hamburger {
+    display: block;
+    z-index: 5;
+  }
 }
