@@ -93,6 +93,5 @@ const Price = () => {
       </div>
     </div>
   );
-};
-
+}
 export default Price;
