@@ -1,11 +1,10 @@
-import React from 'react'
-
-
 import styles from './Price.module.css'
+
+
 const Price = () => {
   return (
     <div className={styles.header}>
-    <div  className={styles.text_2}>
+    <div className={styles.text_2}>
         <h2 className={styles.h1}>Планировка</h2>
       <h3 className={styles.h4}>Мы разработаем для вас уникальное планировочное <br /> решение квартиры, которое <br /> будет соответствовать как нормам эргономики, <br /> так и вашим личным пожеланиям, а также <br /> подготовим чертеж для согласования <br /> планировки. </h3>
       <h3 className={styles.ix}>Вам подойдет,если;</h3>
@@ -31,13 +30,10 @@ const Price = () => {
  </span> В корзину</button>
  <button className={styles.button2}>Посмотреть пример</button>
  </div>
-    </div>
+    
 
 
-
-
-
-
+<h1>salam</h1>
 
       <div className={styles.text-3}>
     <h2 className={styles.text}>Дизайн-проект</h2>
@@ -54,8 +50,11 @@ const Price = () => {
 </div>
 
     </div>
-    
+    </div>
   )
 }
 
 export default Price
+
+
+
