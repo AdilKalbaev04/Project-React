@@ -221,9 +221,9 @@ const AboutUs = () => {
             <span className={styles.textOrange}>За 4 года</span> мы реализовали
             более 250 проектов
           </h3>
-          <div className={styles.showLine}></div>
+          <hr className={styles.showLine} />
         </div>
-        {/* <div className={styles.show}>
+        <div className={styles.show}>
           <div className={styles.showWrap}>
             <a href="/" className={styles.showLink}>
               <img
@@ -237,7 +237,7 @@ const AboutUs = () => {
               проектов
             </h4>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
