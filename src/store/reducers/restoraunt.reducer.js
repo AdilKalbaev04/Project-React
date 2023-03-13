@@ -5,7 +5,7 @@ export const restoApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:1337/api/" }),
   endpoints: (builder) => ({
     getRestoraunts: builder.query({
-      query: () => "flats?populate=image",
+      query: () => "flats",
     }),
   }),
 });
