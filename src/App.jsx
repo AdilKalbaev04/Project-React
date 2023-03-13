@@ -1,5 +1,4 @@
 import "./App.css";
-import AboutUs from "./components/AboutUs/AboutUs";
 import Catalog from "./components/Catalog";
 import Layout from "./components/Layout/Layout";
 import Price from "./components/Price/Price";
