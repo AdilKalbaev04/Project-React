@@ -1,0 +1,97 @@
+.h1 {
+    background:  #BD7048;
+    width: 750px;
+    height: 60px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.header {
+    display: flex;
+}
+
+.text {
+    background:  #bd7148bb;
+    width: 750px;
+    height: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.h4 {
+    color: #515050;
+    margin-left: 150px;
+}
+.text_2 {
+    max-width: 734px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ix {
+    margin-left: 150px;
+}
+.ix2{
+    color: rgb(92, 91, 91);
+    margin-left: 160px;
+}
+
+.ix1{
+    margin-left: 160px;
+    color: rgb(92, 91, 91);
+}
+
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 150px;
+}
+.price1{
+    color: #BD7048;
+}
+
+.button {
+    color: #ffffff;
+    width: 152px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #BD7048;
+    border: #BD7048;
+    margin-left: 150px; 
+}
+
+.button1 {
+    display: flex;
+    gap: 10px;
+}
+
+.button2{
+    color: #ffffff;
+    width: 180px;
+    height: 45px;
+    border-radius: 50px;
+    background: #ca8763d1;
+    border: #BD7048;
+}
+
+
+
+.text4 {
+    margin-left: 100px;
+    color: #595858;
+}
+
+.text5 {
+    margin-left: 100px;
+}
+
+.ix5 {
+    margin-left: 100px;
+}

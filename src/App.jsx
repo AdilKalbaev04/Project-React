@@ -1,7 +1,8 @@
 import React from "react";
+import Price from "./components/Price/Price";
 
 const App = () => {
-  return <div><h1>hdsffdsf1</h1></div>;
+  return <div><Price/></div>;
 };
 
 export default App;
