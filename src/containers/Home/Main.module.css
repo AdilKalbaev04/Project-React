@@ -1,0 +1,229 @@
+.fon {
+  max-width: 100%;
+  min-height: 867px;
+  background-image: url(../public/background.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+}
+.container {
+  max-width: 1440px;
+}
+.title {
+  margin-top: 264px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  min-height: 98px;
+  max-width: 846px;
+}
+.title_cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.order_cont {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  min-height: 119px;
+  width: 297px;
+  border-radius: 100px 0px 0px 100px;
+  background: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.order_price {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.order_svg {
+  height: 58px;
+  width: 61px;
+  border-radius: 100px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sometext {
+  display: flex;
+  flex-direction: column;
+}
+.block {
+  min-height: 148px;
+  max-width: 1176px;
+  border-radius: 50px 50px 0px 0px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 283px;
+}
+.block_text {
+  display: flex;
+  flex-direction: column;
+}
+.block_text_span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #262626;
+}
+.block_text_p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #262626b2;
+  letter-spacing: 0em;
+}
+.text_cont {
+  height: 67px;
+  width: 285px;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+.block_svg {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.block_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 140px;
+}
+.block_2_light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+}
+.h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.logo_cont {
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  width: 387px;
+  gap: 40px;
+}
+.logo {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: 0em;
+  color: #bd704833;
+}
+.block_2_span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.block_2_p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+.logo_span_p {
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.block_2_img {
+  position: absolute;
+  top: 108px;
+  right: 426px;
+}
+
+@media screen and (max-width: 1200px) {
+  .block_2_light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .block_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+  }
+  .img_wrap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .block {
+    min-height: 148px;
+    max-width: 1176px;
+    border-radius: 50px 50px 0px 0px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 283px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .order_cont {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    min-height: 119px;
+    width: 94px;
+    border-radius: 100px 0px 0px 100px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .order_text,
+  .order_price {
+    display: none;
+  }
+}
