@@ -3,7 +3,6 @@ import Catalog from "./components/Catalog";
 import Layout from "./components/Layout/Layout";
 import Price from "./components/Price/Price";
 import Home from "./pages/Home";
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 const App = () => {
