@@ -1,38 +1,39 @@
 {
   "name": "project-react",
-    "private": true,
-    "version": "0.0.0",
-    "type": "module",
-    "scripts": {
-      "dev": "vite",
-      "build": "vite build",
-      "preview": "vite preview",
-      "lint": "eslint --ext .js,.jsx .",
-      "lint:fix": "npm run lint -- --fix"
-    },
-    "dependencies": {
-      "@reduxjs/toolkit": "^1.9.3",
-      "bootstrap": "^5.3.0-alpha1",
-      "clsx": "^1.2.1",
-      "ky": "^0.33.2",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0",
-      "react-icons": "^4.7.1",
-      "react-redux": "^8.0.5",
-      "react-router-dom": "^6.8.1"
-    },
-    "devDependencies": {
-      "@trivago/prettier-plugin-sort-imports": "^4.0.0",
-      "@types/react": "^18.0.27",
-      "@types/react-dom": "^18.0.10",
-      "@vitejs/plugin-react": "^3.1.0",
-      "eslint": "^8.33.0",
-      "eslint-config-prettier": "^8.6.0",
-      "eslint-config-react-app": "^7.0.1",
-      "eslint-plugin-prettier": "^4.2.1",
-      "prettier": "^2.8.4",
-      "vite": "^4.1.0",
-      "vite-plugin-eslint": "^1.8.1"
-    }
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "bootstrap": "^5.3.0-alpha1",
+    "clsx": "^1.2.1",
+    "hamburger-react": "^2.5.0",
+    "hamburgers": "^1.2.1",
+    "ky": "^0.33.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "vite": "^4.1.0",
+    "vite-plugin-eslint": "^1.8.1"
   }
-  
+}
